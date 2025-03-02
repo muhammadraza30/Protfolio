@@ -91,7 +91,7 @@ const Projects = () => {
         </motion.div>
 
         <Tabs defaultValue="all" className="mb-12">
-          <TabsList className="grid grid-cols-5 max-w-md mx-auto">
+          <TabsList className="grid grid-cols-5 mb-8" style={{ gap: '10px' ,minHeight: '50px',margin: '20px',paddingLeft: '10px', paddingRight: '10px'}}>
             <TabsTrigger value="all" onClick={() => setFilter('all')}>All</TabsTrigger>
             <TabsTrigger value="web" onClick={() => setFilter('web')}>Web</TabsTrigger>
             <TabsTrigger value="desktop" onClick={() => setFilter('desktop')}>Desktop</TabsTrigger>

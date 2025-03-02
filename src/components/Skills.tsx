@@ -214,8 +214,8 @@ const Skills = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <Tabs defaultValue="programming" className="w-full">
-            <TabsList className="grid grid-cols-4 mb-8">
+          <Tabs defaultValue="programming" className="mb-12">
+            <TabsList className="grid grid-cols-4 mb-8" style={{ gap: '10px' ,minHeight: '50px',margin: '20px',paddingLeft: '10px', paddingRight: '10px'}}>
               <TabsTrigger value="programming">Programming</TabsTrigger>
               <TabsTrigger value="web">Web Technologies</TabsTrigger>
               <TabsTrigger value="ai">AI & Data Science</TabsTrigger>
